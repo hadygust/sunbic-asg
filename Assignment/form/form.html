@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbic</title>
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p class="head-title">Sunbic</p>
+            <ul>
+                <li><a href="../home/home.html">Home</a></li>
+                <li><a href="../service/service.html">Enroll Class</a></li>
+                <li><a href="../form/form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="form-image-container">
+            <img src="../assets/image/form-background.jpeg" alt="" class="form-image">
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div class="input-container">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="full-name" id="full-name" class="full-name input" placeholder="full name">
+                </div>
+                <div class="input-container">
+                    <label for="class">Class</label>
+                    <input type="text" name="class" id="class" class="class input" placeholder="class">
+                </div>
+                <div class="input-container">
+                    <label for="course">Course</label>
+                    <select name="course" id="course-select" class="input">
+                        <option value="Linear Algebra">Linear Algebra</option>
+                        <option value="Discrete Mathematics">Discrete Mathematics</option>
+                        <option value="Character Building">Character Building</option>
+                        <option value="Object Oriented Programming">Object Oriented Programming</option>
+                        <option value="Calculus">Calculus</option>
+                        <option value="Scientific Computing">Scientific Computing</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label for="rate">Class Rating</label>
+                    <div class="rating">
+                        <div class="rate-1 radio-container">
+                            <input type="radio" name="rate" id="rate-1"> <label for="rate-1">Very Bad</label>
+                        </div>
+                        <div class="rate-2 radio-container">
+                            <input type="radio" name="rate" id="rate-2"> <label for="rate-2">Bad</label>
+                        </div>
+                        <div class="rate-3 radio-container">
+                            <input type="radio" name="rate" id="rate-3"> <label for="rate-3">Average</label>
+                        </div>
+                        <div class="rate-4 radio-container">
+                            <input type="radio" name="rate" id="rate-4"> <label for="rate-4">Good</label>
+                        </div>
+                        <div class="rate-5 radio-container">
+                            <input type="radio" name="rate" id="rate-5"> <label for="rate-5">Very Good</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <label for="advice">Suggestion and Advice</label>
+                    <textarea name="advice" id="advice" cols="30" rows="6" class="input" placeholder="suggestion and advice"></textarea>
+                </div>
+
+                <div class="input-container">
+                    <input type="submit" value="SUBMIT" class="form-submit">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Sunbic</p>    
+        <p class="desc">All rights reserved &copy;sunbic development team</p>
+        <div class="link-container">
+            <a href="https://www.instagram.com/sunbicofficial/"><img src="../assets/icon/white/instagram.svg" alt=""></a>
+            <a href="https://www.facebook.com/profile.php?id=100081935331323"><img src="../assets/icon/white/facebook.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCEKLSH0D6hGca4maPUyXr8g"><img src="../assets/icon/white/youtube.svg" alt=""></a>
+            <a href="https://twitter.com/SunbicUni"><img src="../assets/icon/white/twitter.svg" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>

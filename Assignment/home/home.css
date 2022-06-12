@@ -1,0 +1,115 @@
+
+
+.content{
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.information{
+    background-color: #252525;
+
+    display: flex;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.banner{
+    border-radius: 0.5rem;
+    /* box-shadow: rgba(255, 206, 0, 0.25) 0px 0.0625em 0.0625em, rgba(255, 206, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+    /* box-shadow: rgba(255, 206, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    /* box-shadow: rgba(255, 206, 0, 0.15) 0px 15px 25px, rgba(255, 206, 0, 0.05) 0px 5px 10px; */
+    box-shadow: rgba(255, 205, 0, 0.35) 4px 4px 5px;
+}
+
+.dashboard{
+    display: flex;
+
+    width: inherit;
+
+    background-color: #ffce00;
+
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.upcoming-class{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #252525;
+    color: white;
+
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    
+    border-radius: 0.5rem;
+}
+
+.lecturer{
+    display: flex;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.lecturer-image{
+    object-fit: cover;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.class-number{
+    font-weight: 600;
+    font-size: 1rem;
+
+    margin-top: 2rem;
+
+}
+
+.class-name{
+    margin-top: 0.05rem;
+    font-size: 1.15rem;
+}
+
+.class-time{
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.class-time img{
+    margin-right: 0.25rem;
+}
+
+.to-do{
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 18rem;
+
+    background-color: #ffce00;
+    color: #252525;
+    font-weight: 500;
+    font-size: 0.75rem;
+    border-radius: 0.6rem;
+
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+
+    padding: 1rem 1rem 1rem 1rem;
+}
